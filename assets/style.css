@@ -4,18 +4,21 @@
 }
 
 body {
-
-    position: ;
+    
+    position: relative;
 }
 
 header {
 
+    position: relative;
 }
 
 main {
 
+    position: relative;
 }
 
 footer {
 
+    position: relative;
 }
