@@ -40,7 +40,7 @@ main {
 }
 
 .intro {
-    flex: 4;
+    flex: 5;
 }
 
 
@@ -50,3 +50,8 @@ footer {
     justify-content: flex-end;
     min-height: 25vh;
 }
+
+header h1 {
+    padding-left: 30px;
+}
+
