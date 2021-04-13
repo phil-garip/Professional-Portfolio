@@ -1,17 +1,60 @@
-.bgvideo {
-    object-fit: cover;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
+* {
+    box-sizing: border-box;
+    border: 1px solid red;
 }
 
-  .intro {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 23px;
-  }
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.25em;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 25vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-links a {
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 50vh;
+}
+
+.featured-work {
+    flex: 3;
+}
+
+.intro {
+    flex: 5;
+}
+
+
+header h1 {
+    padding-left: 30px;
+}
+
+iframe {
+    position: relative;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 25vh;
+}
