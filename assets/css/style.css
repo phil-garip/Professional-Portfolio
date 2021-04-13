@@ -43,15 +43,18 @@ main {
     flex: 5;
 }
 
-
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    min-height: 25vh;
 }
 
 header h1 {
     padding-left: 30px;
 }
 
+iframe {
+    position: relative;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 25vh;
