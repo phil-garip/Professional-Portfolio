@@ -43,7 +43,6 @@ main {
     flex: 5;
 }
 
-}
 
 header h1 {
     padding-left: 30px;
@@ -58,3 +57,4 @@ footer {
     flex-direction: column;
     justify-content: flex-end;
     min-height: 25vh;
+}
