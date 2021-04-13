@@ -47,6 +47,14 @@ main {
 
 }
 
+.intro {
+    flex: 3;
+    display: flex;
+    padding-right: 20px;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
 .featured-work {
     flex: 5;
     padding-left: 20px;
