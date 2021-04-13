@@ -1,7 +1,7 @@
-* {
+/* * { 
     box-sizing: border-box;
     border: 1px solid red;
-}
+}*/
 
 body {
     margin: 0;
@@ -9,12 +9,16 @@ body {
     font-size: 1.25em;
 }
 
+header h1 {
+    padding-left: 30px;
+}
+
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    min-height: 25vh;
+    min-height: 10vh;
 }
 
 nav {
@@ -31,16 +35,41 @@ nav {
 
 main {
     display: flex;
-    flex-wrap: wrap;
-    min-height: 50vh;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 80vh;
+}
+
+.top-section {
+    display: flex;
+    padding: 20px;
+
 }
 
 .featured-work {
-    flex: 3;
+    flex: 5;
+    padding-left: 20px;
+}
+
+.featured-video {
+    height: 100%;
+    justify-content: left;
 }
 
 .intro {
-    flex: 5;
+    flex: 3;
+    padding-right: 20px;
+}
+
+.other-work {
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 300px;
 }
 
 
@@ -52,5 +81,5 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    min-height: 25vh;
+    min-height: 10vh;
 }
