@@ -3,31 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Phil Garip</title>
 </head>
 <body>
   
   <header class="header">
     <h1>Phil Garip</h1>
-    <nav>
-      <a href="#">work</a>
-      <a href="#">contact</a>
-      <a href="#">github</a>
+    <nav class="nav-links">
+      <a href="#other-work">work</a>
+      <a href="#contact">contact</a>
+      <a href="#intro">intro</a>
     </nav>
   </header>
 
-  <main class="main">
+  <main>
     
-    <figure class="hero-video">
-      <iframe class="bgvideo" src="https://player.vimeo.com/video/536142347?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Electrode Attachment Theory"></iframe>
-    </figure>
+  <section class="top-section">
+   
+    <aside class="featured-work">
+      <iframe src="https://player.vimeo.com/video/536142347" background="1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </aside>
+    
 
-    <section class="intro">
-      <p>hi, i'm Phil,</p>
-      <p>a new jersey native, photographer, artist, neon bender, web developer in brooklyn.</p>
+    <section class="intro" id="intro"> 
+      <h3>Hello!</h3>
+      <p>I'm Phil,</p>
+      <p>a <a style="text-decoration: line-through;"> photographer</a>, <a style="text-decoration: line-through;"> artist</a>, <a style="text-decoration: line-through;"> neon sign bender</a>, web developer in Brooklyn.</p>
     </section>
-    
+
+  </section>
+
+    <section class="other-work" id="other-work">
+
+      <article>
+        <img src="./assets/images/lipstick copy.jpg">
+      </article>
+      <article>
+        <img src="assets/images/rainboNeon copy.jpg">
+      </article>
+      <article>
+        <img src="assets/images/youhavemywholeheart copy.jpg">
+      </article>
+      <article>
+        <img src="assets/images/cowboy-boot copy.jpg">
+      </article>
+
+    </section>
   </main>
+
+  <footer class="footer" id="contact">
+     <section class="external-links">
+      <a href="mailto:phil.garip@gmail.com">email</a>
+      <a href="https://www.instagram.com/p_garip">instagram</a>
+      <a href="https://github.com/phil-garip">github</a>
+     </section>
+  </footer>
 
 </body>
 </html>
