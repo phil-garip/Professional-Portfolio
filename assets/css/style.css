@@ -9,7 +9,7 @@ body {
     font-size: 1.25em;
 }
 
-header {
+.header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -46,10 +46,6 @@ main {
 
 header h1 {
     padding-left: 30px;
-}
-
-iframe {
-    position: relative;
 }
 
 footer {
