@@ -11,7 +11,12 @@ body {
 
 header h1 {
     padding-left: 40px;
+    font-weight: lighter;
     
+}
+
+h3 {
+    font-weight: lighter;
 }
 
 .header {
@@ -35,6 +40,11 @@ nav {
     text-decoration: none;
     text-align: center;
     color: black;
+    transition-delay: .5s;
+}
+
+.nav-links a:hover {
+    
 }
 
 main {
@@ -73,6 +83,16 @@ main {
     padding-right: 20px;
 }
 
+.bottom-section {
+    display: flex;
+    padding: 20px;
+}
+
+.other-work-heading {
+    min-width: 100%;
+    padding-left: 40px;
+}
+
 .other-work {
     display: flex;
     flex: 0 1 auto;
@@ -80,13 +100,19 @@ main {
     flex-wrap: wrap;
 }
 
-img {
-    max-width: 300px;
+figcaption {
+    font-size: .6em;
+    font-style: italic;
 }
 
+img {
+    max-width: 400px;
+    flex: 0 1 50%;
+    transition-duration: .5s;
+}
 
-header h1 {
-    padding-left: 30px;
+img:hover {
+    outline: 10px solid lightgreen;
 }
 
 .footer {
@@ -111,3 +137,39 @@ section.external-links {
     color: black;
 }
 
+
+@media screen and (max-width: 992px) {
+    body {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .top-section {
+        flex-flow: column wrap;
+
+    }
+
+    .other-work {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .top-section {
+        max-width: 100%;
+    }
+
+    iframe {
+        max-width: 100%;
+    }
+
+    .bottom-section {
+        max-width: 100%;
+    }
+}
