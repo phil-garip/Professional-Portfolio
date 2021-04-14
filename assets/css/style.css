@@ -40,6 +40,11 @@ nav {
     text-decoration: none;
     text-align: center;
     color: black;
+    transition-delay: .5s;
+}
+
+.nav-links a:hover {
+    
 }
 
 main {
