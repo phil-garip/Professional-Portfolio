@@ -112,4 +112,29 @@ section.external-links {
 }
 
 
+@media screen and (max-width: 992px) {
+    body {
+        flex-direction: column;
+    }
 
+    .top-section {
+        flex-flow: column wrap;
+
+    }
+
+    .other-work {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    iframe {
+        max-width: 100%;
+    }
+}
