@@ -100,6 +100,11 @@ main {
     flex-wrap: wrap;
 }
 
+figcaption {
+    font-size: .6em;
+    font-style: italic;
+}
+
 img {
     max-width: 400px;
     flex: 0 1 50%;
